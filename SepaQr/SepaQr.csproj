@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <Title>SepaQr</Title>
     <Description>.NET QR-Code generator for SEPA Payment Transactions aka EPC-QR</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -13,5 +12,4 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/huysentruitw/sepa-qr</RepositoryUrl>
   </PropertyGroup>
-
 </Project>
